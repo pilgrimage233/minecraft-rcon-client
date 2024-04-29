@@ -34,7 +34,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  */
 public class RconClient implements Closeable {
     private static final int AUTHENTICATION_FAILURE_ID = -1;
-    private static final Charset PAYLOAD_CHARSET = StandardCharsets.US_ASCII;
+    private static final Charset PAYLOAD_CHARSET = StandardCharsets.UTF_8;
 
     private static final int TYPE_COMMAND = 2;
     private static final int TYPE_AUTH = 3;
